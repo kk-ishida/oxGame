@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">oxGame</string>
+    <string name="radiobutton01">2D</string>
+    <string name="radiobutton02">3D</string>
+    <string name="radiobutton04">Easy</string>
+    <string name="radiobutton05">Normal</string>
+    <string name="radiobutton07">VeryEasy</string>
+    <string name="button01">一人で遊ぶ</string>
+    <string name="button02">二人で対戦</string>
+    <string name="str01">Player 1 の勝ち！</string>
+    <string name="str02">Player 2 の勝ち！</string>
+    <string name="str03">CPU の勝ち！</string>
+    <string name="str04">引き分け</string>
+    <string name="turn01">Player 1 のターン</string>
+    <string name="turn02">Player 2 のターン</string>
+    <string name="turn03">CPU のターン</string>
+    <string name="again">もう一回</string>
+    <string name="home">ホーム</string>
+</resources>

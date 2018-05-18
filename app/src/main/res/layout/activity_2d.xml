@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".vsPlayer_2D_Activity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#0000ff"
+        android:layout_margin="20dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/button01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button03"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/button04"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button05"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button06"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/button07"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button08"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+
+        <ImageView
+            android:id="@+id/button09"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="128dp"
+            android:src="@drawable/shape_w" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/again"
+            android:onClick="flashFlg"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_margin="20dp" />
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:onClick="backHome"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_margin="20dp" />
+    </TableRow>
+</TableLayout>
